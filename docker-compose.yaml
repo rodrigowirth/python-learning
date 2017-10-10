@@ -1,0 +1,5 @@
+local:
+  image: python:latest
+  command: echo "Hi There"
+  volumes:
+    - .:/usr/src/app
